@@ -44,8 +44,8 @@
         .particles-js-canvas-el {
             top: 0;  
             left: 0;
+            height: 68vh;
             width: 100%;
-            height: 400px;
         }
 
         .banner {
@@ -75,10 +75,9 @@
         #container {
             left: 50%;
             top: 50%;
-            margin-top: -225px;
             margin-left: -444px;
             min-width: 900px;
-            min-height: 330px;
+            min-height: 30vh;
         }
 
 
@@ -100,9 +99,9 @@
         }
     </style>
     <body>
-        <div id="particles-js" class="is-hidden-mobile">
-        </div>
         <section class="hero is-dark is-medium banner" style="z-index: -5;">
+            <div id="particles-js" class="is-hidden-mobile">
+            </div>
             <div class="hero-head">
                 <nav class="nav has-shadow">
                     <div class="nav-left">
@@ -166,7 +165,7 @@
                 </nav>
             </div>
             <div class="hero-body">
-                <div id="container" style="z-index: 50;position: absolute;" class="is-hidden-mobile">
+                <div class="container is-hidden-mobile">
                     <div class="columns">
                         <img id="logo" src="assets/img/icon.png">
                         <div class="column is-9">
